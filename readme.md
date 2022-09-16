@@ -8,11 +8,12 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-![download](https://user-images.githubusercontent.com/110065514/188962497-44996fc1-fbad-40c3-8d2d-6525db5ab4a7.jpg)
+![download]()
 
 
 <!-- PROJECT SHIELDS -->
-<!--
+
+
 *** I'm using markdown "reference style" links for readability.
 *** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
 *** See the bottom of this document for the declaration of the reference variables
@@ -25,6 +26,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
+<!--![quiz](https://user-images.githubusercontent.com/110065514/190670851-073e0f0f-1bfe-4f87-a284-c25ce0c648e5.jpg)
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
   </a>
