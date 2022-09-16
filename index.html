@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="timerBar">
+            <h2 id="timer">You have <span id="timeRemaining"></span> left.</h2>
+        </div>
+    </header>
+    <main class="mainBox">
+        <div id="startQuiz">
+            <h1>Hardest Quiz (use google if needed)</h1>
+            <button class="startBtn" onclick="showTimeBar()">
+                Start Quiz
+            </button>
+        </div>
+        <section class="quizContainer">
+            <h3 id="questionSlot"></h3>
+            <div id="answers">
+                <p><button id="A" class="choiceBtn"></button></p>
+                <p><button id="B" class="choiceBtn"></button></p>
+                <p><button id="C" class="choiceBtn"></button></p>
+                <p><button id="D" class="choiceBtn"></button></p>
+            </div>
+            </section>
+        <section class="gameOver" hidden>
+            <h1 id="gameOver">Game Over</h1>
+            <p id="scoreText">Total Score : <span id="totalScore">0</span></p>
+            <form id="submitScore">
+              <label for="name">Enter Name:</label>
+              <input type="text" id="name">
+              <button id="saveBtn" type="submit">Submit</button>
+              <br>
+              <ul class="displayScore"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
